@@ -1,0 +1,31 @@
+---
+title: "Data analysis"
+author: "Hamza alsaid"
+date: "2024-10-26"
+output: html_document
+---
+
+
+
+```{R}
+a <- 5
+b <- 2
+r1 <- a+b
+r1
+r2 <- a-b
+r2
+r3 <- a*b
+r3
+r4 <- a/b
+r4
+v1 <- c(r1 ,r2 ,r3 ,r4 )
+v1
+v1 <- c(r1 ,r2 ,r3 ,r4 ,a**b )
+v1
+v2 <- c("+" ,"-" ,"*" ,"/" ,"**" )
+v2
+df <- data.frame(results = c(r1 ,r2 ,r3 ,r4 ,a**b ) ,
+                 operation = c('+' ,'-' ,'*' ,'/' ,'**' ) )
+df
+df[2,1]
+```
